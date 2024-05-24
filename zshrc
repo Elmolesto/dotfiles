@@ -77,4 +77,4 @@ alias nvm="unalias nvm; [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"; nvm $@"
 
 [[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc
 
-export EDITOR="code --wait"
+export EDITOR="code --wait"export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
